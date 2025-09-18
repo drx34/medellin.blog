@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Medellín - Colombia Travel Bucket List</title>
+  <meta name="description" content="Medellín travel guide: where to go, what to do and travel tips - Colombia Travel Bucket List">
+  <style>
+    /*
+      Código creado para: Yamil Andrés Pino Palacios
+      Usa este archivo: guarda como "index.html" y ábrelo en tu navegador.
+    */
+
+    :root{
+      --bg:#f6f7fb;
+      --card:#ffffff;
+      --accent:#2b8aef;
+      --muted:#6b7280;
+      --radius:14px;
+      --maxw:960px;
+      --shadow: 0 6px 18px rgba(20,20,40,0.08);
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,var(--bg),#ffffff);color:#0f1724;line-height:1.5}
+    .container{max-width:var(--maxw);margin:28px auto;padding:20px}
+
+    header{display:flex;align-items:center;gap:18px}
+    .logo{width:72px;height:72px;background:linear-gradient(135deg,var(--accent),#6ad1ff);border-radius:12px;display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:20px;box-shadow:var(--shadow)}
+    h1{margin:0;font-size:26px}
+    p.lead{color:var(--muted);margin:6px 0 0}
+
+    .grid{display:grid;grid-template-columns:1fr;gap:18px;margin-top:20px}
+    @media(min-width:900px){.grid{grid-template-columns:2fr 1fr}}
+
+    .card{background:var(--card);padding:18px;border-radius:var(--radius);box-shadow:var(--shadow)}
+    .hero{display:grid;grid-template-columns:1fr;gap:12px;align-items:center}
+    .hero-img{height:220px;border-radius:12px;background:linear-gradient(90deg,#dbeafe,#c7f9ff);display:flex;align-items:center;justify-content:center;color:#034; font-weight:600}
+
+    nav ul{list-style:none;padding:0;margin:0;display:flex;gap:10px}
+    nav a{color:var(--accent);text-decoration:none;font-weight:600}
+
+    section h2{margin-top:0}
+    .tags{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}
+    .tag{background:#eef2ff;color:#1e293b;padding:6px 10px;border-radius:999px;font-size:13px}
+
+    .places{display:grid;grid-template-columns:1fr;gap:12px}
+    @media(min-width:700px){.places{grid-template-columns:1fr 1fr}}
+    .place{display:flex;gap:12px;align-items:flex-start}
+    .thumb{width:110px;height:80px;border-radius:10px;background:#eef2f8;flex-shrink:0;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:13px}
+
+    ul.check{padding-left:18px}
+    footer{margin-top:22px;text-align:center;color:var(--muted);font-size:13px}
+
+    /* CTA */
+    .btn{display:inline-block;background:var(--accent);color:white;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:700}
+
+    /* small helpers */
+    .muted{color:var(--muted)}
+    .meta{font-size:13px;color:var(--muted)}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">MDL</div>
+      <div>
+        <h1>Medellín — Colombia Travel Bucket List</h1>
+        <p class="lead">A quick influencer-style guide: where to go, what to do and travel tips for Medellín.</p>
+      </div>
+    </header>
+
+    <div class="grid">
+      <main>
+        <article class="card">
+          <div class="hero">
+          
+              <nav aria-label="main navigation"><ul>
+                <li><a href="#home">Home</a> • <a href="#where">Where to go</a> • <a href="#what">What to do</a> • <a href="#tips">Travel tips</a></li>
+              </ul></nav>
+            </div>
+          </div>
+
+          <!-- HOME / LANDING -->
+          <section id="home" style="margin-top:14px">
+            <h2>Home / Landing Page</h2>
+            <div class="tags">
+              <span class="tag">Medellín</span>
+              <span class="tag">modern city</span>
+              <span class="tag">culture</span>
+              <span class="tag">skyline</span>
+            </div>
+            <p>Medellín is known as the <strong>City of Eternal Spring</strong> because of its pleasant weather all year round. The city offers a mix of culture, history, modern buildings, and friendly people. It has transformed into one of the most innovative cities in Latin America.</p>
+            <p class="meta">Keywords: Medellín, modern city, culture, skyline</p>
+          </section>
+
+          <!-- WHERE TO GO -->
+          <section id="where" style="margin-top:16px">
+            <h2>Where to go</h2>
+            <p class="muted">Keywords: Comuna 13, Plaza Botero, sculptures, graffiti</p>
+
+            <div class="places">
+              <div class="place card">
+                <div class="thumb">Comuna 13</div>
+                <div>
+                  <h3>Comuna 13</h3>
+                  <p>You <strong>must</strong> visit Comuna 13, a neighborhood full of colorful graffiti and powerful stories. You can walk around its streets and check out the street art, and you might meet locals who share their experiences. You should take photos and join a walking tour to learn more.</p>
+                </div>
+              </div>
+
+              <div class="place card">
+                <div class="thumb">Plaza Botero</div>
+                <div>
+                  <h3>Plaza Botero</h3>
+                  <p>You should look around and admire the huge sculptures made by Fernando Botero. You could sit down in the square and enjoy the artistic vibe of the city. Don't forget to visit the Museum of Antioquia close by.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- WHAT TO DO -->
+          <section id="what" style="margin-top:16px">
+            <h2>What to do</h2>
+            <p class="muted">Keywords: cable cars, local food, nightlife, museums</p>
+
+            <ol>
+              <li><strong>Ride the Metrocable:</strong> You should ride the Metrocable to enjoy the best views of the city. If you take the cable car on a sunny day, you will see the entire valley.</li>
+              <li><strong>Try local food:</strong> You must try bandeja paisa. If you eat it, you will understand why Medellín is famous for its cuisine.</li>
+              <li><strong>Enjoy the nightlife:</strong> You could go to El Poblado at night. If you visit on a weekend, you will find lively bars and clubs.</li>
+              <li><strong>Visit museums:</strong> You should visit the Museum of Antioquia. If you go inside, you might learn about Colombian history and Botero’s art.</li>
+            </ol>
+          </section>
+
+          <!-- TRAVEL TIPS -->
+          <section id="tips" style="margin-top:16px">
+            <h2>Travel tips</h2>
+            <p class="muted">Keywords: transportation, safety, weather, planning</p>
+            <ul class="check">
+              <li>You <strong>must</strong> use the Metro system because it is safe and efficient.</li>
+              <li>You <strong>should</strong> always carry an umbrella, as the weather can change suddenly.</li>
+              <li>You <strong>have to</strong> be careful with your belongings in crowded places.</li>
+              <li>You <strong>might</strong> want to book tours in advance to avoid long lines.</li>
+            </ul>
+          </section>
+
+          <p style="margin-top:14px" class="meta">Revisa tu texto en LanguageTool: <a href="https://languagetool.org/es" target="_blank">languagetool.org/es</a></p>
+
+        </article>
+      </main>
+
+      <aside>
+        <div class="card">
+          <h3>Quick facts</h3>
+          <p class="meta">Location: Aburrá Valley • Best time: All year • Language: Spanish</p>
+          <hr style="margin:12px 0">
+          <h4>Must visit</h4>
+          <ul>
+            <li>Comuna 13</li>
+            <li>Plaza Botero</li>
+            <li>Metrocable viewpoints</li>
+            <li>El Poblado nightlife</li>
+          </ul>
+          <hr style="margin:12px 0">
+          <a class="btn" href="#where">Start planning</a>
+        </div>
+
+        <div class="card" style="margin-top:16px">
+          <h4>About this guide</h4>
+          <p class="meta">Short influencer-style edition created to satisfy the course task requirements.</p>
+          <p style="margin-top:8px"><small class="muted">Tip: Reemplaza las imágenes con fotos propias antes de subir el blog a Blogger o Site123.</small></p>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      <p>Made with ❤️ • Colombia Travel Bucket List — Medellín</p>
+    </footer>
+  </div>
+</body>
+</html>
